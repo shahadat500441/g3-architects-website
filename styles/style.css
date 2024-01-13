@@ -97,7 +97,7 @@ nav li a {
 
 }
 
-/* tablet devices */
+/* tablet   or medium devices*/
 @media screen and (min-width:577px) and (max-width:960px) {
     header {
         padding: 70px;
@@ -107,4 +107,44 @@ nav li a {
         flex-direction: column;
     }
 
+}
+/* main section styles */
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+/* teams styles */
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1.5rem;
+    
+}
+.teams-content{
+    padding: 0px 70px;
+}
+.teams-title{
+    font-size: 2.8rem;
+}
+.teams-title .uick-list{
+    color:#727272;
+    font-weight: 500;
+}
+.teams-title .of-our{
+    color:#131313;
+    font-weight: 700;
+    
+}
+.teams-title .features{
+    color: #FF900E;
+    font-weight: 700;
+}
+.teams-description{
+    color:#727272;
+    font-size: 1rem;
+    line-height: 26px; /* 162.5% */
 }
